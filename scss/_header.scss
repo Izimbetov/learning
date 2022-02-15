@@ -1,10 +1,12 @@
 .header {
     position: relative;
     overflow: hidden;
-    min-height: 400px;
+    min-height: 300px;
+    
 }
 
 .header-block {
+
     font-family: "Roboto";
     font-size: 30px;
     text-transform: none;
@@ -19,10 +21,6 @@ i {
     font-size: 40px;
     text-decoration: none;
     color: #e34b11;
-}
-
-.fas-fa-graduation-cap::before {
-    content: "\f19d";
 }
 
 input {
@@ -113,8 +111,9 @@ input:checked ~ .input-text{
 }
 
 
-.header-div{
+.header-slider{
     background: linear-gradient(rgba(24, 21, 25, 0.8), rgba(24, 21, 25, 0.8)), url(../images/header_bg.png);
+    background-size: 100% 100%;
     background-size: 100% 100%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
     padding: 20px 5px;
