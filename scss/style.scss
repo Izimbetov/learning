@@ -7,8 +7,24 @@
 }
 
 .container{
-    max-width: 300px;
+    max-width: 95%;
     margin: 0 auto;
 }
 
+@media only screen and (min-width:768px){
+    .container{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .container{
+        max-width: 1140px;
+        margin: 0 auto
+    }
+}
+
+
 @import"header";
+@import"about";
