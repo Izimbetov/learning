@@ -1,0 +1,56 @@
+.about {
+    &-title {
+        flex-basis: 100%;
+        text-align: center;
+        font-family: "Roboto Slab";
+        font-size: 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #555252;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    .about-slider {
+        width: 100%;
+        text-align: center;
+        &-block__title {
+            font-family: "Open Sans";
+            font-size: 18px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #555252;
+            font-weight: bold;
+            margin: 30px 0 20px 0;
+        }
+        &-block__text {
+            font-family: "Open Sans";
+            font-size: 14px;
+            text-transform: none;
+            text-decoration: none;
+            color: #555252;
+            font-weight: 300;
+            line-height: 24px;
+        }
+    }
+}
+// @media only screen and (min-width:768px){
+
+// }
+
+@media only screen and (min-width:1024px){
+    .about-title{
+        padding: 40px;
+        font-size: 50px;
+    }
+    .about-slider {
+        width: 100%;
+        
+        &-block__title {
+            width: 300px;
+        }
+        &-block__text {
+            width: 300px;
+        }
+    }
+}
