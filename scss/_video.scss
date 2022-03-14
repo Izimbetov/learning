@@ -1,0 +1,48 @@
+.video {
+    background-color: #3b3b3d;
+    padding: 20px 0;
+    &-inner__el {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    &-inner__img {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .video {
+        padding: 50px 0 35px 0;
+        &-inner__img {
+            display: block;
+            display: block;
+            max-width: 79%;
+            height: auto;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &-inner__el {
+            width: 73%;
+            height: 308px;
+        }
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .video {
+        padding: 150px 0 55px 0;
+        &-inner {
+            position: relative;
+        }
+    }
+    .video-inner__img {
+        position: absolute;
+        width: 88%;
+    }
+    .video-inner__el {
+        width: 58%;
+        height: 451px;
+    }
+}
